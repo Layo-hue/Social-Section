@@ -105,10 +105,12 @@ font-weight: 500;
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media screen and (min-width: 800px){
+
+@media screen and (min-width: 1100px){
     .main{
-        background-image: url(/Social-Section/images/bg-pattern-top-desktop.svg) top no-repeat contain,
-                          url(/Social-Section/images/bg-pattern-bottom-desktop.svg) bottom no-repeat contain;
+        background-image: url(/Social-Section/images/bg-pattern-top-desktop.svg);
+        background-position: top;
+        background-repeat: no-repeat;                
     }
     .container{
         max-width: 1200px;
